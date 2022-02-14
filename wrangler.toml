@@ -1,0 +1,15 @@
+account_id = "dacc24e72e7b355a0832af866034107f"
+name = "server-nested-routing-mk2"
+type = "javascript"
+
+workers_dev = true
+route = ""
+zone_id = ""
+compatibility_date = "2022-02-11"
+
+[site]
+bucket = "./dist"
+entry-point = "./"
+[build]
+command = ""
+upload.format = "service-worker"
